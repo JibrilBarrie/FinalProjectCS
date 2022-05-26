@@ -1,0 +1,76 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 20;
+  outline: none;
+  background-color: #ffd55a;
+  font-family: "Josefin Sans", sans-serif;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-ont-smoothing: grayscale;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.nav {
+  position: fixed;
+  width: 100%;
+}
+.nav ul li {
+  margin: 0 2rem;
+}
+.nav ul {
+  background-color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav ul li a,
+#FoodViolations,
+#about,
+#contact {
+  color: rgba(2, 71, 11, 0.993);
+}
+#FoodViolations,
+#about,
+#contact {
+  height: 100vh;
+  padding-top: 65px;
+  text-align: center;
+}
+
+div.container6 {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.container6 p {
+  margin: 20;
+}
+.card {
+  width: calc(20vw - 4em);
+  margin: 1em;
+  padding: 1em;
+  background-color: rgb(246, 189, 96);
+  display: inline-block;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  vertical-align: top;
+}
