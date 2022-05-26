@@ -6,6 +6,15 @@ import Bronx from "./components/Bronx";
 import Manhattan from "./components/Manhattan";
 import Brooklyn from "./components/Brooklyn";
 import "./styles.css";
+import ReactDOM from "react-dom";
+import * as V from "victory";
+import {
+  VictoryBar,
+  VictoryChart,
+  VictoryAxis,
+  VictoryTheme,
+  VictoryStack
+} from "victory";
 
 class App extends React.Component {
   constructor(props) {
