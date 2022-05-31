@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./Card";
 import Layout from "./Layout";
 
-class ManCards extends React.Component {
+class BrookCards extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -11,7 +11,7 @@ class ManCards extends React.Component {
   }
   componentDidMount = () => {
     fetch(
-      "https://data.cityofnewyork.us/resource/ud4g-9x9z.json?$$app_token=iyTGvDggNXuzGenPvvZjEM0gH&borough=New%20York"
+      "https://data.cityofnewyork.us/resource/ud4g-9x9z.json?$$app_token=iyTGvDggNXuzGenPvvZjEM0gH&borough=Brooklyn"
     )
       .then((response) => response.json())
       .then((data) => {
@@ -25,7 +25,7 @@ class ManCards extends React.Component {
 
   render() {
     return (
-      <div className="ManCards">
+      <div className="BrookCards">
         <Layout />
         <div className="grid">
           {console.log(this)}
@@ -38,4 +38,4 @@ class ManCards extends React.Component {
   }
 }
 
-export default ManCards;
+export default BrookCards;
