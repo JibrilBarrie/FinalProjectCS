@@ -9,7 +9,7 @@ function Router() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/App" element={<App />} />
+        <Route path="/" element={<App />} />
         <Route path="/BronxCards" element={<BronxCards />} />
         <Route path="/BrookCards" element={<BrookCards />} />
         <Route path="/ManCards" element={<ManCards />} />

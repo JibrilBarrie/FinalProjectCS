@@ -15,9 +15,9 @@ const FoodViolations = () => {
       </p>
 
       <iframe
-        src="https://www.google.com/maps/d/edit?hl=en&hl=en&mid=1_B_sWbK-fkBJYJu5UNE5Fr1TvwCtboJx&ll=40.744227250200126%2C-73.9595686615258&z=11"
-        width="500"
-        height="400"
+        src="https://www.google.com/maps/d/embed?mid=1_B_sWbK-fkBJYJu5UNE5Fr1TvwCtboJx&ehbc=2E312F"
+        width="640"
+        height="480"
       ></iframe>
     </div>
   );

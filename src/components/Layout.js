@@ -7,16 +7,26 @@ const Layout = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/BronxCards">Bronx Cards</Link>
+            <a href="/BronxCards">
+              <li>Bronx Cards</li>
+            </a>
           </li>
           <li>
-            <Link to="/ManCards">Manhattan Cards</Link>
+            <a href="/BrookCards">
+              <li>Brooklyn Cards</li>
+            </a>
           </li>
+
           <li>
-            <Link to="/BrookCards">Brooklyn Cards</Link>
+            <a href="/ManCards">
+              <li>Manhattan Cards</li>
+            </a>
           </li>
+
           <li>
-            <Link to="/App">Home Page</Link>
+            <a href="/">
+              <li>Home Page</li>
+            </a>
           </li>
         </ul>
       </nav>
