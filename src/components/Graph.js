@@ -21,10 +21,11 @@ function Product() {
   }
 
   return (
-    <div>
+    <div id="Graph">
+      <h1> Graph </h1>
       <div>
         <button onClick={handleClick} id="M">
-          Number of Resturants
+          Number Of Resturants Based On Borough
         </button>
       </div>
       <Plot

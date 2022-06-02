@@ -34,7 +34,7 @@ a {
   margin: 0 2rem;
 }
 .nav ul {
-  background-color: white;
+  background-color: whitesmoke;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -43,13 +43,17 @@ a {
 
 .nav ul li a,
 #FoodViolations,
-#about,
-#contact {
+#Bronx,
+#Manhattan,
+#Brooklyn,
+#Graph {
   color: rgba(2, 71, 11, 0.993);
 }
 #FoodViolations,
-#about,
-#contact {
+#Bronx,
+#Manhattan,
+#Brooklyn,
+#Graph {
   height: 100vh;
   padding-top: 65px;
   text-align: center;

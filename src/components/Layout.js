@@ -6,28 +6,34 @@ const Layout = () => {
     <>
       <nav>
         <ul>
-          <li>
-            <a href="/BronxCards">
-              <li>Bronx Cards</li>
-            </a>
-          </li>
-          <li>
-            <a href="/BrookCards">
-              <li>Brooklyn Cards</li>
-            </a>
-          </li>
-
-          <li>
-            <a href="/ManCards">
-              <li>Manhattan Cards</li>
-            </a>
-          </li>
-
-          <li>
-            <a href="/">
-              <li>Home Page</li>
-            </a>
-          </li>
+          <div>
+            <li id="M">
+              <a href="/BronxCards">
+                <botton>Bronx Cards</botton>
+              </a>
+            </li>
+          </div>
+          <div>
+            <li id="M">
+              <a href="/BrookCards">
+                <botton>Brooklyn Cards</botton>
+              </a>
+            </li>
+          </div>
+          <div>
+            <li id="M">
+              <a href="/ManCards">
+                <botton>Manhattan Cards</botton>
+              </a>
+            </li>
+          </div>
+          <div>
+            <li id="M">
+              <a href="/">
+                <botton>Home Page</botton>
+              </a>
+            </li>
+          </div>
         </ul>
       </nav>
 

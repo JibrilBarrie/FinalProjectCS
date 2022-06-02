@@ -7,7 +7,6 @@ import Brooklyn from "./components/Brooklyn";
 import "./styles.css";
 import Layout from "./components/Layout";
 import Product from "./components/Graph";
-
 class App extends React.Component {
   render() {
     return (
@@ -17,8 +16,8 @@ class App extends React.Component {
         <Bronx />
         <Manhattan />
         <Brooklyn />
-        <Layout />
         <Product />
+        <Layout />
       </div>
     );
   }
