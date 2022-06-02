@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 0;
+  padding: 1rem;
+}
+.btn {
+  background-color: #ffd55a;
+  border: 1px solid Black;
+  color: rgba(2, 71, 11, 0.993);
+  padding: 0.5rem;
+}
+.btn:hover {
+  background-color: #eeeeee;
+  cursor: pointer;
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.cards-item {
+  display: flex;
+  padding: 1em;
+}
+.cards-item.fourth {
+  width: calc(25% - 2em);
+}
+
+@media (max-width: 900px) {
+  .cards-item.fourth {
+    width: calc(33.33333% - 2em);
+  }
+}
+@media (max-width: 700px) {
+  .cards-item.fourth {
+    width: 100%;
+  }
+}
+.card {
+  background-color: pink;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 200%;
+  padding-bottom: 10px;
+}
+.card-content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+.card-image {
+  background-image: url("https://via.placeholder.com/300/BBBBBB/FFFFFF/");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+.card-image::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+.card-image.landscape::before {
+  content: "";
+  display: block;
+  padding-top: 40%;
+}
+
+@media (min-width: 40rem) {
+  .card-image::before {
+    /* padding-top: 66.6%; */ /* 3:2 aspect ratio */
+    padding-top: 80%;
+  }
+}
+.card-container {
+  padding: 0 1rem;
+}
+
+.card-title {
+  color: black;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 0.75em;
+}
+.card-text {
+  flex: 1 1 auto;
+  margin-bottom: 1.25rem;
+}
+.description {
+  font-size: 1.5rem;
+  line-height: 1;
+}

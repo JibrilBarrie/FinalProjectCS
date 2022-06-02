@@ -27,6 +27,11 @@ class BrookCards extends React.Component {
     return (
       <div className="BrookCards">
         <Layout />
+        <iframe
+          src="https://www.google.com/maps/d/embed?mid=1iuMAZZZWl9OPQPuMYfKgt7gQrC2ybws&ehbc=2E312F"
+          width="640"
+          height="480"
+        ></iframe>
         <div className="grid">
           {console.log(this)}
           {this.state.data.map((data) => (

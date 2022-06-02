@@ -26,6 +26,11 @@ class BronxCards extends React.Component {
     return (
       <div className="BronxCards">
         <Layout />
+        <iframe
+          src="https://www.google.com/maps/d/embed?mid=1NZgSJcI6ApaC8rxtREC-MbLU7Wv8tSA&ehbc=2E312F"
+          width="640"
+          height="480"
+        ></iframe>
         <div className="grid">
           {console.log(this)}
           {this.state.data.map((data) => (

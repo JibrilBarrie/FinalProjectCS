@@ -20,24 +20,24 @@ const Nav = () => {
           </a>
         </li>
         <li>
-          <a href="#about" onClick={handleClick}>
+          <a href="#Bronx" onClick={handleClick}>
             Bronx
           </a>
         </li>
         <li>
-          <a href="#contact" onClick={handleClick}>
+          <a href="#Manhattan" onClick={handleClick}>
             Manhattan
           </a>
         </li>
 
         <li>
-          <a href="#contact" onClick={handleClick}>
-            Queens
+          <a href="#Brooklyn" onClick={handleClick}>
+            Brooklyn
           </a>
         </li>
         <li>
-          <a href="#contact" onClick={handleClick}>
-            Staten Island
+          <a href="#Graph" onClick={handleClick}>
+            Graph
           </a>
         </li>
       </ul>

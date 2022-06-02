@@ -6,16 +6,7 @@ import Manhattan from "./components/Manhattan";
 import Brooklyn from "./components/Brooklyn";
 import "./styles.css";
 import Layout from "./components/Layout";
-// import ReactDOM from "react-dom";
-// import * as V from "victory";
-// import {
-//   VictoryBar,
-//   VictoryChart,
-//   VictoryAxis,
-//   VictoryTheme,
-//   VictoryStack
-// } from "victory";
-
+import Product from "./components/Graph";
 class App extends React.Component {
   render() {
     return (
@@ -25,6 +16,7 @@ class App extends React.Component {
         <Bronx />
         <Manhattan />
         <Brooklyn />
+        <Product />
         <Layout />
       </div>
     );
